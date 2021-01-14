@@ -81,7 +81,7 @@ class Progress extends StatelessWidget {
                       ),
                     ]),
                     Text(
-                      '${getDailyAvg()} kg',
+                      '${getDailyAvg().toStringAsFixed(2)} kg',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 15,
@@ -109,7 +109,7 @@ class Progress extends StatelessWidget {
                       ),
                     ]),
                     Text(
-                      '${getWeeklyAvg()} kg',
+                      '${getWeeklyAvg().toStringAsFixed(2)} kg',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 15,
@@ -137,7 +137,7 @@ class Progress extends StatelessWidget {
                       ),
                     ]),
                     Text(
-                      '${getMonthlyAvg()} kg',
+                      '${getMonthlyAvg().toStringAsFixed(2)} kg',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 15,

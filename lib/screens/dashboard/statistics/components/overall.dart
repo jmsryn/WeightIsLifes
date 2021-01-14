@@ -110,7 +110,7 @@ class Overall extends StatelessWidget {
                           fontFamily: 'Proxima'),
                     ),
                     Text(
-                      '-4.0 kg',
+                      '${(getAllLow())} kg',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,

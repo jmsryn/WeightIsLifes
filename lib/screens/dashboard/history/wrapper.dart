@@ -92,37 +92,31 @@ class _HistoryState extends State<History> {
             tileColor: secondaryColor,
             leading: SizedBox(
                 width: 64,
-                child: (weightData.length == 1)
-                    ? Row(children: [
-                        Text('0 kg', style: TextStyle(color: Colors.white))
-                      ])
-                    : (weightData[i]['change'] > 0)
-                        ? Row(
-                            children: [
-                              Icon(
-                                Icons.arrow_drop_up,
-                                color: Colors.green,
-                              ),
-                              Text(
-                                '${(weightData[i]['change'])} kg',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 13),
-                              )
-                            ],
+                child: (weightData[i]['change'] > 0)
+                    ? Row(
+                        children: [
+                          Icon(
+                            Icons.arrow_drop_up,
+                            color: Colors.green,
+                          ),
+                          Text(
+                            '${(weightData[i]['change'])} kg',
+                            style: TextStyle(color: Colors.white, fontSize: 13),
                           )
-                        : Row(
-                            children: [
-                              Icon(
-                                Icons.arrow_drop_down,
-                                color: Colors.red,
-                              ),
-                              Text(
-                                '${(weightData[i]['change'])} kg',
-                                style: TextStyle(
-                                    color: Colors.white, fontSize: 13),
-                              )
-                            ],
-                          )),
+                        ],
+                      )
+                    : Row(
+                        children: [
+                          Icon(
+                            Icons.arrow_drop_down,
+                            color: Colors.red,
+                          ),
+                          Text(
+                            '${(weightData[i]['change'])} kg',
+                            style: TextStyle(color: Colors.white, fontSize: 13),
+                          )
+                        ],
+                      )),
           ),
         ),
       );
