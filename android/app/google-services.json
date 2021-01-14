@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468844632427",
+    "project_id": "weight-is-life-2",
+    "storage_bucket": "weight-is-life-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468844632427:android:d013deb62f35716400942e",
+        "android_client_info": {
+          "package_name": "com.example.WeightIsLife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468844632427-hj9uvj687990oenjg6v80g3idnptdmlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtHDLoIWFjG8kz3OFQqHqw58ScXfM7a14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468844632427-hj9uvj687990oenjg6v80g3idnptdmlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
